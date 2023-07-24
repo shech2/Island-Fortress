@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     int pointsIndex = 0;
 
     public float WaitTime = 2f;
-    public float targetRange = 60f;
+    public float targetRange = 30f;
     IEnumerator Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -27,12 +27,23 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        // if Player is in sight of Enemy, chase Enemy
-        if (IsPlayerInSight())
+        GameObject enemy = GameObject.FindGameObjectWithTag("Player");
+        float distanceToPlayer = Vector3.Distance(transform.position, enemy.transform.position);
+
+        // If Player is in sight of Enemy and within a certain distance, chase Enemy
+        if ((IsPlayerInSight() && distanceToPlayer <= 10f)  || (IsPlayerInSight() && distanceToPlayer <= 3f))
         {
             ChaseEnemy();
         }
+        else
+        {
+            animator.SetBool("Run", false);
+            animator.SetBool("Attack", false);
+            agent.isStopped = false;
+            VisitPoints();
+        }
     }
+
 
     private bool IsPlayerInSight()
     {
@@ -67,26 +78,26 @@ public class PlayerController : MonoBehaviour
     private void ChaseEnemy()
     {
         GameObject enemy = GameObject.FindGameObjectWithTag("Player");
-        agent.SetDestination(enemy.transform.position);
+        Vector3 directionToPlayer = enemy.transform.position - transform.position;
+        directionToPlayer.y = 0;
+        float distanceToPlayer = Vector3.Distance(transform.position, enemy.transform.position);
+        transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(directionToPlayer), 0.1f);
 
-        if (agent.remainingDistance < 2f)
-        {
-            agent.isStopped = true;
-            animator.SetBool("Attack", true);
-        }
-        else
-        {
-            agent.isStopped = false;
-            animator.SetBool("Attack", false);
-        }
-
-        if (agent.remainingDistance > 5)
+        if (distanceToPlayer > 3f && distanceToPlayer <= 10f)
         {
             animator.SetBool("Run", true);
+            animator.SetBool("Attack", false);
+            agent.isStopped = false;
+            agent.SetDestination(enemy.transform.position);
+
         }
-        else
+        else if(distanceToPlayer <= 3f)
         {
             animator.SetBool("Run", false);
+            animator.SetBool("Attack", true);
+            agent.isStopped = true;
         }
+
     }
+
 }
