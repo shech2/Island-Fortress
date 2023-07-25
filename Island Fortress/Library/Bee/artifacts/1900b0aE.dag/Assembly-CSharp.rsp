@@ -375,6 +375,7 @@
 "Assets/InteractSystem/Interactable.cs"
 "Assets/InteractSystem/InteractionEvent.cs"
 "Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.cs"
+"Assets/Player/ClosetInteraction.cs"
 "Assets/Player/DoorInteraction.cs"
 "Assets/Player/PlayerInteract.cs"
 "Assets/Player/PlayerLook.cs"
