@@ -33,6 +33,8 @@ public class DialogueManager : MonoBehaviour
         {
             Debug.Log("End of conversation");
             animator.SetBool("IsOpen", false);
+            // Lock the mouse cursor to the center of the screen
+            Cursor.lockState = CursorLockMode.Locked;
             return;
         }
         string sentence = sentences.Dequeue();
