@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Remy
   - WayPoints
+  - Water
   layers:
   - Default
   - TransparentFX

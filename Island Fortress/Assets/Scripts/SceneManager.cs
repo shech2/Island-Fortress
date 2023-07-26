@@ -17,4 +17,15 @@ public class SceneManager : MonoBehaviour
         // Load the Next Scene
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneIndex + 1);
     }
+    public void ResetScene()
+    {
+        // Get the Current Scene
+        Scene currentScene = UnityEngine.SceneManagement.SceneManager.GetActiveScene();
+        // Get the Current Scene Name
+        string sceneName = currentScene.name;
+        // Get the Current Scene Index
+        int sceneIndex = currentScene.buildIndex;
+        // Load the Next Scene
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneIndex);
+    }
 }
