@@ -20518,9 +20518,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6867b908d010f214781f17b40108ce55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  useEvents: 0
+  useEvents: 1
   prompMessage: Master Bedroom
   Door: {fileID: 1052723292}
+--- !u!114 &1052723301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052723292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34841393d1a303d4e9e4be8b7d9d2550, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7326944536661950820}
+        m_TargetAssemblyTypeName: DialogueTrigger, Assembly-CSharp
+        m_MethodName: TriggerDialogue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &1056040896 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3386719459365879084, guid: dd22d3cb5edddc54fb43d88c8b0da7d5, type: 3}
@@ -50947,17 +50974,16 @@ MonoBehaviour:
   dialogue:
     name: FirstScene
     sentences:
-    - ' (Rubbing head) Ugh, my head is pounding. What happened last night? I can''t
-      remember a thing.'
-    - '(Looking around) Maybe if I find some hints, it''ll jog my memory.
+    - Ugh, my head is pounding. What happened last night? I can't remember a thing.
+    - 'Maybe if I find some hints, it''ll jog my memory.
 
-      
 
-      Player
-      finds a torn note under the bed.'
-    - '(Confused) What''s this note about? Old pier, tonight? I guess that''s a clue.
 
-      
+      Player finds a
+      torn note under the bed.'
+    - 'What''s this note about? Old pier, tonight? I guess that''s a clue.
+
+
 
       Player
       continues exploring the house, finding more items that suggest something unusual
@@ -50966,52 +50992,52 @@ MonoBehaviour:
       strange.
     - 'Maybe I''ll find some answers outside. Fresh air might help.
 
-      
+
 
       Outside
       the building, the player sees the protagonist''s boat docked nearby.'
     - 'At least my boat is still here. A trip on the water might clear my mind.
 
-      
+
 
       The
       player clicks on the boat to start the journey.'
     - 'I hope this trip will help me recall what happened last night.
 
-      
+
 
       The
       boat sets sail, and the player reaches a serene spot on the water.'
     - 'The water is so calm. Maybe being out here will trigger something.
 
-      
+
 
       The
       protagonist gazes at the horizon, and a series of images start flashing through
       their mind.'
     - 'Wait, what was that? It felt like memories, but they''re so fleeting.
 
-      
+
 
       The
       player continues sailing, and the images become clearer.'
-    - ' Yes, I remember now! I was at the old pier last night, and there was someone
+    - 'Yes, I remember now! I was at the old pier last night, and there was someone
       waiting for me.
 
-      
 
-      A cutscene plays, showing the protagonist
-      meeting a mysterious figure at the old pier.'
+
+      A cutscene plays, showing the protagonist meeting
+      a mysterious figure at the old pier.'
     - Who are you? What do you want from me?
     - 'All in good time. You have something I need.
 
-      
 
-      The player returns
-      to controlling the boat.'
+
+      The player returns to
+      controlling the boat.'
     - 'I have to go back to that old pier and find out what they meant.
 
-      
+
 
       The
       boat heads back towards the old pier, and the game continues with the protagonist
