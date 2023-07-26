@@ -392,6 +392,7 @@
 "Assets/Player/PlayerMovement.cs"
 "Assets/Player/PlayerUI.cs"
 "Assets/RemyScript.cs"
+"Assets/Scripts/CameraChange.cs"
 "Assets/Scripts/FollowPlayer.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SceneManager.cs"
