@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3897118865530204432}
   - component: {fileID: 3897118865530204447}
-  - component: {fileID: 3897118865530204433}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -47,20 +46,3 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   dialogueText: {fileID: 0}
---- !u!114 &3897118865530204433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3897118865530204446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce29bd6b5ffec5a488fbe116294dca18, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogue:
-    name: Test
-    sentences:
-    - "Helllo From Here\t"
-    - Hello From There

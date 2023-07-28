@@ -9,4 +9,13 @@ public class DialogueTrigger : MonoBehaviour
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            TriggerDialogue();
+            this.gameObject.SetActive(false);
+        }
+    }
 }
