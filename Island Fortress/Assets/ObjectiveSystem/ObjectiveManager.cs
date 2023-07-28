@@ -1,17 +1,25 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 
+
 public class ObjectiveManager : MonoBehaviour
 {
     public Animator animator;
     public Text dialogueText;
-    public void StartObjective(Dialogue objective)
+    public ObjectPanel objectPanel;
+
+    public float waitTime = 5f;
+
+    public void StartObjective(Objective objective)
     {
+        objectPanel.AddObjective(objective);
         animator.SetBool("Open", true);
-        StartCoroutine(TypeSentence(objective.sentences[0]));
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(objective.ObjectiveText));
     }
 
     IEnumerator TypeSentence(string sentence)
@@ -22,8 +30,7 @@ public class ObjectiveManager : MonoBehaviour
             dialogueText.text += letter;
             yield return null;
         }
+        yield return new WaitForSeconds(waitTime);
+        animator.SetBool("Open", false);
     }
-
-
-
 }

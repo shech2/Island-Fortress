@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ObjectiveTrigger : MonoBehaviour
 {
-    public Dialogue objective;
+    public Objective objective;
     public void TriggerObjective()
     {
         FindObjectOfType<ObjectiveManager>().StartObjective(objective);
