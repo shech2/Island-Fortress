@@ -323,8 +323,6 @@
 -r:"D:/Unity/2021.3.25f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard/System.Xml.XPath.XDocument.dll"
 -r:"D:/Unity/2021.3.25f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"D:/Unity/2021.3.25f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.postprocessing.Editor.ref.dll"
--r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.postprocessing.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
@@ -437,6 +435,9 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/UnityTechnologies/EffectExamples/Misc Effects/Scripts/SpawnEffect.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Ramps/Runtime/RampAsset.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/AdjustTimeScale.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/DecalDestroyer.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ExtinguishableFire.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/GunAim.cs"
@@ -444,6 +445,9 @@
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleCollision.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleExamples.cs"
 "Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ParticleMenu.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/ProximityActivate.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/SimpleCameraController.cs"
+"Assets/UnityTechnologies/EffectExamples/Shared/Scripts/SimpleCharacterMotor.cs"
 "Assets/UnityTechnologies/EffectExamples/TutorialInfo/Scripts/Readme.cs"
 -langversion:9.0
 
