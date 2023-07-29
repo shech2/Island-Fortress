@@ -6134,7 +6134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objective:
     name: Seocnd
-    ObjectiveText: 'Objective 2 : David Hameleh
+    ObjectiveText: 'Objective 2 : Find the Second Paddle
 
 '
 --- !u!65 &1165105872
@@ -7790,7 +7790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objective:
     name: Hey
-    ObjectiveText: 'Objective 1 : Hello World'
+    ObjectiveText: 'Objective 1 : Find the First Paddle'
 --- !u!65 &1483997926
 BoxCollider:
   m_ObjectHideFlags: 0
