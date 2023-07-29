@@ -13,10 +13,12 @@ public class OpenBox : MonoBehaviour
     public float scale = 1;
 
     private GameObject fractObj;
+    private bool isExploding = false;  // The new flag
+    private List<Coroutine> shrinkCoroutines = new List<Coroutine>(); // List to store Shrink coroutines
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (!isExploding && Input.GetKeyDown(KeyCode.E))
         {
             Explode();
         }
@@ -28,6 +30,8 @@ public class OpenBox : MonoBehaviour
 
     void Explode()
     {
+        isExploding = true;  // Set the flag to true at the beginning of the operation
+
         if (originalObject != null)
         {
             originalObject.SetActive(false);
@@ -41,10 +45,11 @@ public class OpenBox : MonoBehaviour
                     {
                         rb.AddExplosionForce(Random.Range(explosionMinForce, explosionMaxForce), originalObject.transform.position, explosionRadius);
                     }
-                    StartCoroutine(Shrink(t, 2));
+                  Coroutine shrinkCoroutine = StartCoroutine(Shrink(t, 7));
+                  shrinkCoroutines.Add(shrinkCoroutine);
                 }
 
-                Destroy(fractObj, 5);
+                Destroy(fractObj, 7);
 
                 if (explosin != null)
                 {
@@ -57,21 +62,36 @@ public class OpenBox : MonoBehaviour
 
     void Reset()
     {
-        Destroy(fractObj);
+        foreach (Coroutine coroutine in shrinkCoroutines) // Stop all the Shrink coroutines
+        {
+            StopCoroutine(coroutine);
+        }
+        shrinkCoroutines.Clear(); // Clear the list for next use
+
+        if (fractObj != null) 
+        {
+            Destroy(fractObj);
+        }
         originalObject.SetActive(true);
+        isExploding = false;  // Reset the flag here as well
     }
+
 
     IEnumerator Shrink(Transform t, float delay)
     {
         yield return new WaitForSeconds(delay);
         Vector3 newScale = t.localScale;
 
-        while (newScale.x >= 0)
+        while (t != null && newScale.x >= 0)
         {
             newScale -= new Vector3(scale, scale, scale);
             t.localScale = newScale;
             yield return new WaitForSeconds(0.05f);
         }
+
+        isExploding = false;  // Set the flag to false at the end of the operation
     }
+
+
 
 }
