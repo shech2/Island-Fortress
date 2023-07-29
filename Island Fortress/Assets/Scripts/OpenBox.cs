@@ -49,7 +49,8 @@ public class OpenBox : MonoBehaviour
                   shrinkCoroutines.Add(shrinkCoroutine);
                 }
 
-                Destroy(fractObj, 7);
+               Destroy(fractObj, 8);
+
 
                 if (explosin != null)
                 {
@@ -80,18 +81,17 @@ public class OpenBox : MonoBehaviour
     IEnumerator Shrink(Transform t, float delay)
     {
         yield return new WaitForSeconds(delay);
-        Vector3 newScale = t.localScale;
-
-        while (t != null && newScale.x >= 0)
+        while (t != null && t.gameObject != null) // Check if the GameObject exists
         {
-            newScale -= new Vector3(scale, scale, scale);
-            t.localScale = newScale;
+            Vector3 newScale = t.localScale;
+
+            if (newScale.x >= 0)
+            {
+                newScale -= new Vector3(scale, scale, scale);
+                t.localScale = newScale;
+            }
             yield return new WaitForSeconds(0.05f);
         }
-
-        isExploding = false;  // Set the flag to false at the end of the operation
     }
-
-
 
 }
