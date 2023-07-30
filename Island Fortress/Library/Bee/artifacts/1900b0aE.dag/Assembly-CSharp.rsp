@@ -395,6 +395,8 @@
 "Assets/Player/PlayerLook.cs"
 "Assets/Player/PlayerMovement.cs"
 "Assets/Player/PlayerUI.cs"
+"Assets/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs"
+"Assets/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs"
 "Assets/RemyScript.cs"
 "Assets/Scripts/CameraChange.cs"
 "Assets/Scripts/FollowPlayer.cs"
