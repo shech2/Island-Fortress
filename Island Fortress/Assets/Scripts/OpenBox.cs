@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.ParticleSystemJobs;
+
+
 
 public class OpenBox : MonoBehaviour
 {
@@ -11,6 +14,7 @@ public class OpenBox : MonoBehaviour
     public float explosionMaxForce = 100;
     public float explosionRadius = 10;
     public float scale = 1;
+    public ParticleSystem particleSystem;
 
     private GameObject fractObj;
     private bool isExploding = false;  // The new flag
@@ -20,6 +24,7 @@ public class OpenBox : MonoBehaviour
     {
         if (!isExploding && Input.GetKeyDown(KeyCode.E))
         {
+            particleSystem.Play();
             Explode();
         }
         if (Input.GetKeyDown(KeyCode.R))
