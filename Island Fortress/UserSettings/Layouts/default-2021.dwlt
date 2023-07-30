@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 128
+  controlID: 141
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 28
+  controlID: 27
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -165,8 +165,8 @@ MonoBehaviour:
     y: 0
     width: 1180
     height: 426
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 80
+  controlID: 83
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -339,23 +339,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f8610000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: f830fdffa039fdff4842fdff7855fdff7c59fdff5c62fdff1e6bfdffb4d9ffffd4d9ffffccdcffff3c840000dcca0300
+      m_ExpandedIDs: ac58feff6e8cfefffeaafeff901efffff851ffff08fbffffde630000e86e0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: FirstPersonController
-        m_OriginalName: FirstPersonController
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 35216
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 10}
       m_SearchString: 
@@ -624,9 +624,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 34.64062, y: 8.8397255, z: 15.659565}
+    m_Target: {x: -32.125824, y: 8.679696, z: 69.23372}
     speed: 2
-    m_Value: {x: 34.64062, y: 8.8397255, z: 15.659565}
+    m_Value: {x: -32.125824, y: 8.679696, z: 69.23372}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -673,13 +673,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.0137318475, y: 0.9842768, z: -0.08762781, w: -0.1529901}
+    m_Target: {x: 0.018049214, y: 0.99485797, z: -0.049175292, w: -0.08691286}
     speed: 2
-    m_Value: {x: -0.013827101, y: 0.98433626, z: -0.089121684, w: -0.15148735}
+    m_Value: {x: 0.01804885, y: 0.99483794, z: -0.0491743, w: -0.08691111}
   m_Size:
-    m_Target: 24.384691
+    m_Target: 0.8353653
     speed: 2
-    m_Value: 25.533709
+    m_Value: 0.8353653
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -697,7 +697,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+  m_LastSceneViewRotation: {x: 0.18912438, y: -0.43959758, z: 0.095135905, w: 0.8729327}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -909,14 +909,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.78105265
+    - e00: 0.8729412
       e01: 0
       e02: 0
-      e03: -24.052643
+      e03: -115.94119
       e10: 0
-      e11: 0.78105265
+      e11: 0.8729412
       e12: 0
-      e13: 108.799995
+      e13: 78.247055
       e20: 0
       e21: 0
       e22: 1
@@ -948,7 +948,7 @@ MonoBehaviour:
       e10: 0
       e11: 0.78105265
       e12: 0
-      e13: 65.8421
+      e13: 42.410522
       e20: 0
       e21: 0
       e22: 1
@@ -1126,7 +1126,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -35492
+  m_LastSelectedObjectID: 24060
 --- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1169,36 +1169,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/ObjectiveSystem
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/ObjectiveSystem
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GameProject\Island-Fortress\Island Fortress
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 440}
-    m_SelectedIDs: f08e0000
-    m_LastClickedID: 36592
-    m_ExpandedIDs: 00000000948e0000968e000014f900002af9000000ca9a3b
+    scrollPos: {x: 0, y: 296}
+    m_SelectedIDs: 3e6c0000
+    m_LastClickedID: 27710
+    m_ExpandedIDs: 00000000906b0000926b0000546c00005284000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: Prefabs
-      m_OriginalName: Prefabs
+      m_Name: 
+      m_OriginalName: 
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 71742
+      m_UserData: 0
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 0
+      m_OriginalEventType: 11
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 11}
     m_SearchString: 
@@ -1212,7 +1212,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000948e0000968e0000988e0000
+    m_ExpandedIDs: 00000000906b0000926b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1240,7 +1240,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: d85f000006a70000f8600000146100004661000000000000de9d000052f70000
+    m_ExpandedInstanceIDs: d85f000006a70000f8600000146100004661000000000000de9d000052f70000e2a80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
