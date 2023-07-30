@@ -398,6 +398,7 @@
 "Assets/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs"
 "Assets/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs"
 "Assets/RemyScript.cs"
+"Assets/Scripts/BoxExplosion.cs"
 "Assets/Scripts/CameraChange.cs"
 "Assets/Scripts/FollowPlayer.cs"
 "Assets/Scripts/OpenBox.cs"
