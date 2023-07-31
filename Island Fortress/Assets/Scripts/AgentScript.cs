@@ -7,42 +7,72 @@ public class AgentScript : MonoBehaviour
     public Transform target;
     UnityEngine.AI.NavMeshAgent agent;
     Animator animator;
+    bool shouldFollow = true;
+    [SerializeField] private Transform[] points;
+    int pointsIndex = 0;
 
-    // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        agent.SetDestination(target.position);
+        if (shouldFollow)
+        {
+            agent.SetDestination(target.position);
         
-        // Calculate distance between agent and target
-        float distance = Vector3.Distance(agent.transform.position, target.position);
-        
-        // If the distance is less or equal to 3, set IsSit to true
-        if (distance <= 3f)
-        {
-            animator.SetBool("IsSit", true);
-            agent.stoppingDistance = 2f; // Stop 1 unit away from the target
-        }
-        else
-        {
-            animator.SetBool("IsSit", false);
+            float distance = Vector3.Distance(agent.transform.position, target.position);
+            
+            if (distance <= 3f)
+            {
+                animator.SetBool("IsSit", true);
+                agent.stoppingDistance = 2f;
+            }
+            else
+            {
+                animator.SetBool("IsSit", false);
+            }
 
-           
+            if(distance >= 8f)
+            {
+                animator.SetBool("IsRun", true);
+            }
+            else
+            {
+                animator.SetBool("IsRun", false);
+            }
+        }
+        else  // If not following player, check if destination has been reached
+        {
+            if (!agent.pathPending && agent.remainingDistance < 0.5f)
+                VisitPoints();  // If destination has been reached, move to next point
         }
 
-        if(distance >= 8f)
+        if (Input.GetKeyDown(KeyCode.M))
         {
-            animator.SetBool("IsRun", true);
+            shouldFollow = !shouldFollow;
+            if (shouldFollow)
+                pointsIndex = 0;  // If switching to follow player, reset points index
         }
-        else
+
+        if (Input.GetKeyDown(KeyCode.N) && shouldFollow)
         {
-            animator.SetBool("IsRun", false);
+            shouldFollow = false;
+            VisitPoints();  // If switching to points navigation, move to first point
         }
+    }
+
+    private void VisitPoints()
+    {
+        if (points.Length == 0)
+            return;
+
+        agent.destination = points[pointsIndex].position;
+        animator.SetBool("IsRun", true);
+        animator.SetBool("IsSit", false);
+
+        pointsIndex = (pointsIndex + 1) % points.Length; // Increment and loop index if end is reached
     }
 }
