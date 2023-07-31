@@ -5,8 +5,10 @@ using UnityEngine;
 public class AgentScript : MonoBehaviour
 {
     public Transform target;
+    public AudioClip sound; // sound that will be played when 'M' is pressed
     UnityEngine.AI.NavMeshAgent agent;
     Animator animator;
+    AudioSource audioSource;
     bool shouldFollow = true;
     [SerializeField] private Transform[] points;
     int pointsIndex = 0;
@@ -15,6 +17,7 @@ public class AgentScript : MonoBehaviour
     {
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>(); // Get AudioSource component
     }
 
     void Update()
@@ -44,23 +47,25 @@ public class AgentScript : MonoBehaviour
                 animator.SetBool("IsRun", false);
             }
         }
-        else  // If not following player, check if destination has been reached
+        else
         {
             if (!agent.pathPending && agent.remainingDistance < 0.5f)
-                VisitPoints();  // If destination has been reached, move to next point
+                VisitPoints();
         }
 
         if (Input.GetKeyDown(KeyCode.M))
         {
+              audioSource.PlayOneShot(sound); // Play the sound
             shouldFollow = !shouldFollow;
             if (shouldFollow)
-                pointsIndex = 0;  // If switching to follow player, reset points index
+                pointsIndex = 0;
         }
 
         if (Input.GetKeyDown(KeyCode.N) && shouldFollow)
         {
             shouldFollow = false;
-            VisitPoints();  // If switching to points navigation, move to first point
+            pointsIndex = 0; // Reset pointsIndex to 0 each time 'N' is pressed
+            VisitPoints();
         }
     }
 
@@ -73,6 +78,6 @@ public class AgentScript : MonoBehaviour
         animator.SetBool("IsRun", true);
         animator.SetBool("IsSit", false);
 
-        pointsIndex = (pointsIndex + 1) % points.Length; // Increment and loop index if end is reached
+        pointsIndex = (pointsIndex + 1) % points.Length;
     }
 }
