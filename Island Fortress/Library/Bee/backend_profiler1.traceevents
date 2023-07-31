@@ -1,0 +1,507 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1690832597561208, "dur":766, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832597561980, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1690832597562023, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1690832597562033, "dur":574, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1690832597562642, "dur":402, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832597563044, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599175990, "dur":201, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176191, "dur":88, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176279, "dur":37, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176316, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176324, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176327, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176332, "dur":27, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176359, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176365, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176367, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176372, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176373, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176378, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176381, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176385, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176387, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176392, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176394, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176399, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176401, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176405, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176407, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176411, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176413, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176418, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176427, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599176447, "dur":1047, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1690832597562613, "dur":436, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690832597563050, "dur":1380, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690832597564439, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690832597564442, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690832597564495, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690832597564499, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690832597564891, "dur":1656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1690832597566549, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1690832597566568, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690832597566753, "dur":33332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1690832597600097, "dur":10866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690832597610965, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690832597610968, "dur":453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1690832597611429, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1690832597611450, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690832597611453, "dur":163036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1690832597774508, "dur":1387765, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690832599162277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1690832599162283, "dur":13639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1690832599175939, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1690832599175942, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832597562663, "dur":394, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832597563057, "dur":1382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832597564440, "dur":79531, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1690832597643975, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832597643981, "dur":131118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1690832597775112, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690832597775151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832597775426, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690832597778085, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690832597778103, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832597778106, "dur":567762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690832598345877, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690832598345891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832598345894, "dur":208758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690832598554664, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690832598554677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832598554681, "dur":37679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690832598592375, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690832598592416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832598592422, "dur":128287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690832598720717, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690832598720727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832598720730, "dur":151033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1690832598871772, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1690832598871849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832598871851, "dur":15274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1690832598887141, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1690832598887154, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832598887157, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/level2" }}
+,{ "pid":12345, "tid":2, "ts":1690832598888165, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1690832598888182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832598888184, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1690832598890537, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1690832598890552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832598890556, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1690832598891538, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1690832598891715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1690832598891720, "dur":921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1690832598892650, "dur":283347, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690832597562653, "dur":400, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690832597563053, "dur":1384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690832597564440, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1690832597564561, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690832597566032, "dur":56037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1690832597622080, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1690832597622136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690832597622139, "dur":811274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1690832598433426, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690832598433438, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690832598433440, "dur":158835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690832598592284, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690832598592294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690832598592297, "dur":36059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690832598628364, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690832598628374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690832598628376, "dur":90527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690832598718912, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690832598718923, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690832598718926, "dur":138736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690832598857678, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690832598857695, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1690832598857698, "dur":117409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1690832598975123, "dur":200870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690832597562687, "dur":375, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690832597563063, "dur":1388, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690832597564452, "dur":64617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1690832597629071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690832597629089, "dur":145872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1690832597774972, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress.exe" }}
+,{ "pid":12345, "tid":4, "ts":1690832597774989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690832597774992, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress.exe" }}
+,{ "pid":12345, "tid":4, "ts":1690832597775983, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690832597776011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690832597776014, "dur":638382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690832598414406, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690832598414418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690832598414421, "dur":212492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690832598626922, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690832598626937, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690832598626940, "dur":109536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690832598736484, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690832598736496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690832598736499, "dur":4422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690832598740929, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690832598740942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690832598740945, "dur":121654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1690832598862631, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1690832598862647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1690832598862649, "dur":41388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1690832598904048, "dur":271954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832597562710, "dur":359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832597563069, "dur":1383, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832597564453, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1690832597564535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832597565578, "dur":36039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1690832597601626, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1690832597601645, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832597601655, "dur":6687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1690832597608353, "dur":53787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1690832597662143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832597662148, "dur":112924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1690832597775085, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1690832597775110, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832597775318, "dur":889233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1690832598664566, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598664585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832598664589, "dur":178256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598842853, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598842885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832598842888, "dur":6131, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598849026, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598849300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832598849302, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598849859, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598849977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832598849979, "dur":546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598850533, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598850789, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832598850792, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598851510, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598851519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832598851522, "dur":542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598852073, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598852083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832598852085, "dur":2804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598854903, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598854917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832598854920, "dur":910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598855840, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598855869, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832598855871, "dur":2574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1690832598858458, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1690832598858475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832598858489, "dur":866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":5, "ts":1690832598859364, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690832598859375, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1690832598859377, "dur":261694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1690832599121083, "dur":54908, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832597562731, "dur":342, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832597563074, "dur":1379, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832597564454, "dur":72482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1690832597636938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832597636942, "dur":138252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1690832597775207, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832597775225, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832597775481, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832597777839, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832597777853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832597777856, "dur":853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832597778719, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832597778737, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832597778739, "dur":191762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832597970512, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832597970523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832597970526, "dur":271643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598242178, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598242193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598242197, "dur":77640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598319846, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598319876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598319879, "dur":240355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598560243, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598560254, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598560256, "dur":12537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598572801, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598572815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598572818, "dur":177325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598750152, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598750163, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598750165, "dur":90534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598840709, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598840719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598840723, "dur":7716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598848447, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598848547, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598848550, "dur":501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598849058, "dur":381, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598849440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598849443, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598850183, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598850310, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598850312, "dur":482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598850802, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598850943, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598850945, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598851485, "dur":636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598852123, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598852125, "dur":1231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598853364, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598853374, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598853376, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598855222, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598855233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598855236, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598855985, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598855997, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598855999, "dur":924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598856931, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598856945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598856948, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598857999, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598858011, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598858014, "dur":1034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1690832598859057, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1690832598859070, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1690832598859072, "dur":201539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1690832599060657, "dur":115333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832597562755, "dur":323, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832597563078, "dur":1354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832597564439, "dur":65784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1690832597630225, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832597774296, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1690832597775401, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832597775418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832597775523, "dur":2634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832597778169, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832597778185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832597778188, "dur":558452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598336650, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598336851, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598336854, "dur":568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598337429, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598337439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598337442, "dur":219399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598556850, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598556861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598556863, "dur":35502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598592377, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598592391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598592413, "dur":39314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598631734, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598631744, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598631747, "dur":53281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598685042, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598685054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598685059, "dur":42566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598727633, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598727647, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598727650, "dur":5492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598733149, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598733161, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598733163, "dur":121749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598854926, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598854946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598854949, "dur":761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598855718, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598855727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598855730, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598856569, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598856585, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598856588, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598857595, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598857611, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598857613, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1690832598858844, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1690832598858860, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598858863, "dur":26790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1690832598885672, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1690832598885694, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598885700, "dur":4371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1690832598890088, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1690832598890106, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1690832598890109, "dur":2261, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1690832598892384, "dur":283612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832597562777, "dur":306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832597563083, "dur":1375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832597564458, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1690832597564556, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832597565515, "dur":59118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1690832597624643, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1690832597624663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832597624665, "dur":776363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1690832598401042, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690832598401064, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832598401067, "dur":162424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690832598563500, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690832598563514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832598563517, "dur":11178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690832598574703, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690832598574713, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832598574715, "dur":59363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690832598634085, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690832598634099, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832598634101, "dur":82506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690832598716618, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690832598716630, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832598716633, "dur":149744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1690832598866386, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1690832598866465, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832598866467, "dur":19855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1690832598886339, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1690832598886356, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832598886359, "dur":1475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1690832598887846, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1690832598887862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1690832598887865, "dur":5226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1690832598893112, "dur":282872, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832597562797, "dur":290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832597563087, "dur":1358, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832597564445, "dur":19061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1690832597583508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832597583520, "dur":54860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1690832597638391, "dur":587119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598225515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832598225549, "dur":3565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598229130, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598229151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832598229156, "dur":28267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598257433, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598257450, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832598257453, "dur":9794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598267255, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598267267, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832598267270, "dur":11909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598279186, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598279200, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832598279203, "dur":180356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598459569, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598459582, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832598459585, "dur":43874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598503467, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598503477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832598503480, "dur":61357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598564845, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598564858, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832598564861, "dur":160089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598724961, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598724972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832598724975, "dur":551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598725533, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598725546, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832598725549, "dur":33325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598758882, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598758896, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832598758899, "dur":84953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598843860, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598843871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1690832598843874, "dur":65106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1690832598908992, "dur":267015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690832597562834, "dur":257, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690832597563091, "dur":1357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690832597564448, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1690832597564552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690832597565631, "dur":67072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1690832597632713, "dur":115047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832597747765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690832597774126, "dur":1363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832597775501, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832597775520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690832597775533, "dur":2605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832597778148, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832597778166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690832597778169, "dur":681276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832598459459, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832598459476, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690832598459480, "dur":97782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832598557271, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832598557281, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690832598557284, "dur":35041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832598592337, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832598592355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690832598592358, "dur":136812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832598729178, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832598729188, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1690832598729205, "dur":263235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1690832598992457, "dur":183548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832597562860, "dur":235, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832597563096, "dur":1348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832597564452, "dur":106353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1690832597670807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832597670811, "dur":104453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1690832597775277, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832597775292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832597775490, "dur":2547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832597778047, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832597778066, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832597778069, "dur":543306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598321383, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598321394, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832598321396, "dur":276717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598598121, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598598134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832598598137, "dur":169471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598767616, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598767628, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832598767631, "dur":78192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598845831, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598845847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832598845849, "dur":7560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598853418, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598853449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832598853453, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598855827, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598855840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832598855843, "dur":3124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1690832598858976, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1690832598858988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832598858991, "dur":26760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":11, "ts":1690832598885773, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1690832598885798, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832598885801, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1690832598888844, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1690832598888868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832598888879, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1690832598890225, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1690832598890252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1690832598890295, "dur":1383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1690832598891690, "dur":284298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832597562883, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832597563099, "dur":1341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832597564443, "dur":18067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1690832597582514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832597582554, "dur":192079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1690832597774650, "dur":169767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1690832597944422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832597944427, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1690832597945545, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832597945561, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832597945563, "dur":348771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598294343, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598294359, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832598294362, "dur":206826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598501201, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598501217, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832598501221, "dur":129148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598630376, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598630386, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832598630388, "dur":221813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598852215, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598852231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832598852235, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598852871, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598852881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832598852884, "dur":787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598853679, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598853690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832598853693, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598855411, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598855422, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832598855425, "dur":818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598856250, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598856262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832598856264, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598858005, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598858196, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832598858217, "dur":1088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1690832598859313, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Build/Island Fortress_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1690832598859324, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1690832598859326, "dur":43956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Build/Island Fortress_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":12, "ts":1690832598903300, "dur":272700, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1690832599178598, "dur":2450, "ph":"X", "name": "ProfilerWriteOutput" }
+,

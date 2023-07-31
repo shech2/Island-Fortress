@@ -25,9 +25,9 @@ public class AgentScript : MonoBehaviour
         if (shouldFollow)
         {
             agent.SetDestination(target.position);
-        
+
             float distance = Vector3.Distance(agent.transform.position, target.position);
-            
+
             if (distance <= 3f)
             {
                 animator.SetBool("IsSit", true);
@@ -38,7 +38,7 @@ public class AgentScript : MonoBehaviour
                 animator.SetBool("IsSit", false);
             }
 
-            if(distance >= 8f)
+            if (distance >= 8f)
             {
                 animator.SetBool("IsRun", true);
             }
@@ -55,7 +55,7 @@ public class AgentScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.M))
         {
-              audioSource.PlayOneShot(sound); // Play the sound
+            audioSource.PlayOneShot(sound); // Play the sound
             shouldFollow = !shouldFollow;
             if (shouldFollow)
                 pointsIndex = 0;
