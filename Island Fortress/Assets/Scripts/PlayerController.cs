@@ -74,7 +74,18 @@ public class PlayerController : MonoBehaviour
         GameObject enemy = GameObject.FindGameObjectWithTag("Player");
         agent.destination = enemy.transform.position;
         animator.SetBool("Run", true);
-        animator.SetBool("Attack", false);
+        if (agent.remainingDistance <= agent.stoppingDistance)
+        {
+            AttackEnemy();
+        }
+    }
+
+    private void AttackEnemy()
+    {
+        GameObject enemy = GameObject.FindGameObjectWithTag("Player");
+        agent.destination = enemy.transform.position;
+        animator.SetBool("Run", false);
+        animator.SetBool("Attack", true);
     }
 
 }
