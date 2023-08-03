@@ -5046,6 +5046,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 7900872924211990297}
   sound: {fileID: 8300000, guid: 283e7cd02e75f404db0720b0fa911403, type: 3}
+  freeMonkey: {fileID: 8300000, guid: 695546395013ef745a4a1591a3ad5b94, type: 3}
+  ComeBack: {fileID: 8300000, guid: 4b9914c015908f14cb72844afd00bfd3, type: 3}
   points:
   - {fileID: 1699787933}
   - {fileID: 114423855}
