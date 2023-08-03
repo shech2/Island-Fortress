@@ -30,6 +30,10 @@ public class PlayerController : MonoBehaviour
         {
             ChaseEnemy();
         }
+        else
+        {
+            VisitPoints();
+        }
     }
 
 
