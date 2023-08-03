@@ -27,5 +27,14 @@ public class AdamAnimationScript : MonoBehaviour
         {
             anim.SetFloat("speed", 2);
         }
+        if (Input.GetKeyDown(KeyCode.S))
+        {
+            anim.SetFloat("speed", -1);
+        }
+        if (Input.GetKeyUp(KeyCode.S))
+        {
+            anim.SetFloat("speed", 0);
+        }
+
     }
 }
