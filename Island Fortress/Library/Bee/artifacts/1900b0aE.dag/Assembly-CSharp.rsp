@@ -404,6 +404,7 @@
 "Assets/Scripts/CameraChange.cs"
 "Assets/Scripts/DoorScript.cs"
 "Assets/Scripts/FollowPlayer.cs"
+"Assets/Scripts/LightTowerScript.cs"
 "Assets/Scripts/OpenBox.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SceneManager.cs"

@@ -1,18 +1,17 @@
 using UnityEngine;
-using UnityEngine.UI; // Ensure you're using Unity's UI system for the message.
+using UnityEngine.UI;
 
 public class DoorScript : MonoBehaviour
 {
-    public Text messageText; // Drag and drop your Text object here if you're using Unity's UI.
+    public Text messageText;
 
     private void Start()
     {
-        messageText.gameObject.SetActive(false); // Ensure the message is hidden at the start.
+        messageText.gameObject.SetActive(false);
     }
 
     private void OnCollisionEnter(Collision collision)
     {
-        // Check if the colliding object has the tag "Player" (make sure to tag your player appropriately).
         if (collision.gameObject.CompareTag("Player"))
         {
             messageText.text = "This door does not open";
@@ -24,7 +23,7 @@ public class DoorScript : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            messageText.gameObject.SetActive(false); // Hide the message when the player moves away from the door.
+            messageText.gameObject.SetActive(false);
         }
     }
 }
