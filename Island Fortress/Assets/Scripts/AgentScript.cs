@@ -8,18 +8,26 @@ public class AgentScript : MonoBehaviour
     public AudioClip sound; // sound that will be played when 'M' is pressed
     public AudioClip freeMonkey; // sound that will be played when 'N' is pressed
     public AudioClip ComeBack; // sound that will be played when 'B' is pressed
+    public AudioClip MonkeySound;
+
     UnityEngine.AI.NavMeshAgent agent;
     Animator animator;
     AudioSource audioSource;
     bool shouldFollow = true;
     [SerializeField] private Transform[] points;
     int pointsIndex = 0;
+    bool canPressM = false;
+
+
+    public AudioSource audioSource1;
+    public AudioSource audioSource2;
+
 
     void Start()
     {
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
         animator = GetComponent<Animator>();
-        audioSource = GetComponent<AudioSource>(); // Get AudioSource component
+
     }
 
     void Update()
@@ -56,27 +64,47 @@ public class AgentScript : MonoBehaviour
                 VisitPoints();
         }
 
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.M) && canPressM)
         {
             float distance = Vector3.Distance(agent.transform.position, target.position);
-            audioSource.PlayOneShot(sound); // Play the sound
-            if(distance>= 5f){
-                audioSource.PlayOneShot(ComeBack); // Play the sound
+            audioSource2.Stop();
+            audioSource1.PlayOneShot(sound);
+
+            if (distance >= 5f)
+            {
+                audioSource1.PlayOneShot(ComeBack);
             }
-            
+
             shouldFollow = !shouldFollow;
             if (shouldFollow)
+            {
                 pointsIndex = 0;
+                agent.SetDestination(target.position); // Explicitly set destination immediately after toggle
+
+            }
+
+            canPressM = false;
+
+
         }
 
         if (Input.GetKeyDown(KeyCode.N) && shouldFollow)
         {
-            audioSource.PlayOneShot(freeMonkey); // Play the sound
+            audioSource1.PlayOneShot(freeMonkey);
+            StartCoroutine(PlayDelayedSound());
             shouldFollow = false;
-            pointsIndex = 0; // Reset pointsIndex to 0 each time 'N' is pressed
+            pointsIndex = 0;
             VisitPoints();
+            canPressM = true; // Allow M to be pressed after N has been pressed
         }
     }
+
+    IEnumerator PlayDelayedSound() // Custom IEnumerator for delay
+    {
+        yield return new WaitForSeconds(1f);  // Wait for 1 second
+        audioSource2.PlayOneShot(MonkeySound);
+    }
+
 
     private void VisitPoints()
     {
