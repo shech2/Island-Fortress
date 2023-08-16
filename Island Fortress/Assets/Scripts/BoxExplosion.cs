@@ -15,16 +15,25 @@ public class BoxExplosion : MonoBehaviour
     public float explosionRadius = 10;
     public float scale = 1;
     public ParticleSystem particleSystem;
+    public AudioClip audioClip;
 
     private GameObject fractObj;
     private bool isExploding = false;  // The new flag
     private List<Coroutine> shrinkCoroutines = new List<Coroutine>(); // List to store Shrink coroutines
+    AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+
+    }
 
     void Update()
     {
         if (!isExploding && Input.GetKeyDown(KeyCode.T))
         {
             particleSystem.Play();
+            audioSource.PlayOneShot(audioClip);
             Explode();
         }
         if (Input.GetKeyDown(KeyCode.R))
