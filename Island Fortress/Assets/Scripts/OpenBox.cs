@@ -11,6 +11,7 @@ public class OpenBox : MonoBehaviour
     public Vector3 jumpForce = new Vector3(0, 5, 0); // Adjust this to control the "jump out" force
     public Text promptText;
     public AudioClip sound;  // Corrected capitalization
+    public AudioClip takePaddleSound;
 
     private AudioSource audioSource;  // Corrected capitalization
     private Animator animator;
@@ -112,6 +113,7 @@ public class OpenBox : MonoBehaviour
 
     private void TakePaddle()
     {
+        audioSource.PlayOneShot(takePaddleSound);
         // Deactivate the paddle to "pick it up"
         paddleInsideBox.SetActive(false);
         paddleInBoat.GetComponent<MeshRenderer>().enabled = true;

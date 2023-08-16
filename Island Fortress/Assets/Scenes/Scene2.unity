@@ -5359,6 +5359,7 @@ MonoBehaviour:
   jumpForce: {x: 2, y: 5, z: 0}
   promptText: {fileID: 519019045}
   sound: {fileID: 8300000, guid: f30a95b9b82bd404c812f65eca717132, type: 3}
+  takePaddleSound: {fileID: 8300000, guid: b0f5c4e3947f525469fb0f0509a0b639, type: 3}
 --- !u!65 &957657518
 BoxCollider:
   m_ObjectHideFlags: 0
