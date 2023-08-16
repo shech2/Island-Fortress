@@ -10,14 +10,19 @@ public class OpenBox : MonoBehaviour
     public GameObject paddleInBoat; // Reference to the paddle outside the boat
     public Vector3 jumpForce = new Vector3(0, 5, 0); // Adjust this to control the "jump out" force
     public Text promptText;
+    public AudioClip sound;  // Corrected capitalization
 
+    private AudioSource audioSource;  // Corrected capitalization
     private Animator animator;
-    private bool boxOpened = false; // Flag to check if the box has already been opened
+    private bool boxOpened = false;
+
+
 
     void Start()
     {
         animator = GetComponent<Animator>();
         animator.enabled = false;
+        audioSource = GetComponent<AudioSource>();
 
         if (player == null)
         {
@@ -55,6 +60,7 @@ public class OpenBox : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
+
                     animator.enabled = true;
                     OpenBoxAndReleasePaddle();
                     boxOpened = true;
@@ -85,8 +91,14 @@ public class OpenBox : MonoBehaviour
 
     void OpenBoxAndReleasePaddle()
     {
+        audioSource.PlayOneShot(sound);
+        Invoke("StopSound", 1f);
+
         // Enable the paddle's Mesh Renderer to make it visible
-        paddleInsideBox.GetComponent<MeshRenderer>().enabled = true;
+        if (paddleInsideBox != null)
+        {
+            paddleInsideBox.GetComponent<MeshRenderer>().enabled = true;
+        }
 
         // Get the paddle's Rigidbody
         Rigidbody rb = paddleInsideBox.GetComponent<Rigidbody>();
@@ -135,5 +147,10 @@ public class OpenBox : MonoBehaviour
         Vector3 toBox = (transform.position - player.transform.position).normalized;
         float angleToBox = Vector3.Angle(player.transform.forward, toBox);
         return angleToBox < maxOpenAngle;
+    }
+
+    void StopSound()
+    {
+        audioSource.Stop();
     }
 }
