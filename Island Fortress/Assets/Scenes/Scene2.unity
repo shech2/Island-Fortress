@@ -5355,6 +5355,7 @@ MonoBehaviour:
   maxOpenAngle: 30
   player: {fileID: 7900872924211990293}
   paddleInsideBox: {fileID: 1147866877}
+  paddleInBoat: {fileID: 5226373}
   jumpForce: {x: 2, y: 5, z: 0}
   promptText: {fileID: 519019045}
 --- !u!65 &957657518

@@ -7,6 +7,7 @@ public class OpenBox : MonoBehaviour
     public float maxOpenAngle = 30f;
     public GameObject player;
     public GameObject paddleInsideBox; // Reference to the paddle inside the box
+    public GameObject paddleInBoat; // Reference to the paddle outside the boat
     public Vector3 jumpForce = new Vector3(0, 5, 0); // Adjust this to control the "jump out" force
     public Text promptText;
 
@@ -42,19 +43,35 @@ public class OpenBox : MonoBehaviour
 
     void Update()
     {
-        if (IsPlayerNearby() && PlayerIsFacingBox() && !boxOpened)
+        if (IsPlayerNearby() && PlayerIsFacingBox())
+        {
+            if (!boxOpened)
+            {
+                if (promptText != null)
+                {
+                    promptText.text = "press Q to open the box";
+                    promptText.enabled = true;
+                }
+
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    animator.enabled = true;
+                    OpenBoxAndReleasePaddle();
+                    boxOpened = true;
+                }
+            }
+        }
+        else if (boxOpened && paddleInsideBox.activeSelf && IsPlayerNearPaddle() && PlayerIsFacingPaddle())
         {
             if (promptText != null)
             {
-                promptText.text = "press Q to open the box";
+                promptText.text = "Press E to take";
                 promptText.enabled = true;
             }
 
-            if (Input.GetKeyDown(KeyCode.Q))
+            if (Input.GetKeyDown(KeyCode.E))
             {
-                animator.enabled = true;
-                OpenBoxAndReleasePaddle();
-                boxOpened = true;
+                TakePaddle();
             }
         }
         else
@@ -79,6 +96,32 @@ public class OpenBox : MonoBehaviour
             rb.isKinematic = false;
             rb.AddForce(jumpForce, ForceMode.Impulse);
         }
+    }
+
+    private void TakePaddle()
+    {
+        // Deactivate the paddle to "pick it up"
+        paddleInsideBox.SetActive(false);
+        paddleInBoat.GetComponent<MeshRenderer>().enabled = true;
+
+        // Hide the prompt text
+        if (promptText != null)
+        {
+            promptText.enabled = false;
+        }
+    }
+
+    private bool IsPlayerNearPaddle()
+    {
+        float distanceToPaddle = Vector3.Distance(player.transform.position, paddleInsideBox.transform.position);
+        return distanceToPaddle < proximityThreshold;
+    }
+
+    private bool PlayerIsFacingPaddle()
+    {
+        Vector3 toPaddle = (paddleInsideBox.transform.position - player.transform.position).normalized;
+        float angleToPaddle = Vector3.Angle(player.transform.forward, toPaddle);
+        return angleToPaddle < maxOpenAngle;
     }
 
     private bool IsPlayerNearby()
