@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638276085053627322
+      ticks: 638277232081740184
     m_Hash: 18586251
   m_LockFileStatus:
     m_FilePath: D:/GameProject/Island-Fortress/Island Fortress/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638276085053627322
+      ticks: 638277232081745212
     m_Hash: 1721621529
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -543,10 +543,12 @@ m_ResolvedPackages:
     - 1.5.1
     - 1.6.1
     - 1.6.3
+    - 1.7.0
     compatible:
     - 1.5.1
     - 1.6.1
     - 1.6.3
+    - 1.7.0
     verified: 1.5.1
   dependencies:
   - name: com.unity.modules.uielements
