@@ -18,7 +18,17 @@ public class BoatScript : MonoBehaviour
         {
             if (!Paddle.GetComponent<MeshRenderer>().enabled && !Paddle1.GetComponent<MeshRenderer>().enabled)
             {
-                messageText.text = "You have to find the Paddles";
+                messageText.text = "You have to find the 2 Paddles";
+                messageText.gameObject.SetActive(true);
+            }
+            else if (!Paddle.GetComponent<MeshRenderer>().enabled || !Paddle1.GetComponent<MeshRenderer>().enabled)
+            {
+                messageText.text = "You have to find the other Paddle";
+                messageText.gameObject.SetActive(true);
+            }
+            else
+            {
+                messageText.text = "Press E to get in the boat";
                 messageText.gameObject.SetActive(true);
             }
         }
