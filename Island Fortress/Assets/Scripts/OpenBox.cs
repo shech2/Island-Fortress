@@ -1,14 +1,17 @@
 using UnityEngine;
-using UnityEngine.UI; // Necessary to access the Text component
+using UnityEngine.UI;
 
 public class OpenBox : MonoBehaviour
 {
     public float proximityThreshold = 2f;
     public float maxOpenAngle = 30f;
     public GameObject player;
-    public Text promptText; // Reference to the UI Text component
+    public GameObject paddleInsideBox; // Reference to the paddle inside the box
+    public Vector3 jumpForce = new Vector3(0, 5, 0); // Adjust this to control the "jump out" force
+    public Text promptText;
 
     private Animator animator;
+    private bool boxOpened = false; // Flag to check if the box has already been opened
 
     void Start()
     {
@@ -24,6 +27,12 @@ public class OpenBox : MonoBehaviour
             }
         }
 
+        // Initialize the paddle to be invisible
+        if (paddleInsideBox != null)
+        {
+            paddleInsideBox.GetComponent<MeshRenderer>().enabled = false;
+        }
+
         // Hide the text at the start
         if (promptText != null)
         {
@@ -33,10 +42,9 @@ public class OpenBox : MonoBehaviour
 
     void Update()
     {
-        if (IsPlayerNearby() && PlayerIsFacingBox())
+        if (IsPlayerNearby() && PlayerIsFacingBox() && !boxOpened)
         {
-            // If the animator is not yet enabled, show the prompt.
-            if (!animator.enabled && promptText != null)
+            if (promptText != null)
             {
                 promptText.text = "press Q to open the box";
                 promptText.enabled = true;
@@ -45,16 +53,12 @@ public class OpenBox : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Q))
             {
                 animator.enabled = true;
-                // Hide the text prompt after pressing Q
-                if (promptText != null)
-                {
-                    promptText.enabled = false;
-                }
+                OpenBoxAndReleasePaddle();
+                boxOpened = true;
             }
         }
         else
         {
-            // Hide the text prompt if the player is not in position
             if (promptText != null)
             {
                 promptText.enabled = false;
@@ -62,6 +66,20 @@ public class OpenBox : MonoBehaviour
         }
     }
 
+    void OpenBoxAndReleasePaddle()
+    {
+        // Enable the paddle's Mesh Renderer to make it visible
+        paddleInsideBox.GetComponent<MeshRenderer>().enabled = true;
+
+        // Get the paddle's Rigidbody
+        Rigidbody rb = paddleInsideBox.GetComponent<Rigidbody>();
+        if (rb != null)
+        {
+            // Make the Rigidbody dynamic and apply a force for the jump
+            rb.isKinematic = false;
+            rb.AddForce(jumpForce, ForceMode.Impulse);
+        }
+    }
 
     private bool IsPlayerNearby()
     {

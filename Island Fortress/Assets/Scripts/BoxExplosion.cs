@@ -22,7 +22,7 @@ public class BoxExplosion : MonoBehaviour
 
     void Update()
     {
-        if (!isExploding && Input.GetKeyDown(KeyCode.E))
+        if (!isExploding && Input.GetKeyDown(KeyCode.T))
         {
             particleSystem.Play();
             Explode();
@@ -50,11 +50,11 @@ public class BoxExplosion : MonoBehaviour
                     {
                         rb.AddExplosionForce(Random.Range(explosionMinForce, explosionMaxForce), originalObject.transform.position, explosionRadius);
                     }
-                  Coroutine shrinkCoroutine = StartCoroutine(Shrink(t, 7));
-                  shrinkCoroutines.Add(shrinkCoroutine);
+                    Coroutine shrinkCoroutine = StartCoroutine(Shrink(t, 7));
+                    shrinkCoroutines.Add(shrinkCoroutine);
                 }
 
-               Destroy(fractObj, 8);
+                Destroy(fractObj, 8);
 
 
                 if (explosin != null)
@@ -74,7 +74,7 @@ public class BoxExplosion : MonoBehaviour
         }
         shrinkCoroutines.Clear(); // Clear the list for next use
 
-        if (fractObj != null) 
+        if (fractObj != null)
         {
             Destroy(fractObj);
         }
