@@ -10,6 +10,7 @@ public class OpenBox : MonoBehaviour
     public GameObject paddleInBoat; // Reference to the paddle outside the boat
     public Vector3 jumpForce = new Vector3(0, 5, 0); // Adjust this to control the "jump out" force
     public Text promptText;
+
     public AudioClip sound;  // Corrected capitalization
     public AudioClip takePaddleSound;
 
