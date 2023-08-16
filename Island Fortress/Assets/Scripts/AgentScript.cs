@@ -20,6 +20,7 @@ public class AgentScript : MonoBehaviour
 
     public AudioSource audioSource1;
     public AudioSource audioSource2;
+    private bool isClickedCoroutineRunning = false;
 
     void Start()
     {
@@ -35,15 +36,27 @@ public class AgentScript : MonoBehaviour
 
             float distance = Vector3.Distance(agent.transform.position, target.position);
 
-            if (distance <= 3f)
+            if (distance <= 4f)
             {
                 animator.SetBool("IsSit", true);
-                agent.stoppingDistance = 2f;
+                agent.stoppingDistance = 3f;
+
+                if (distance <= 2f && !isClickedCoroutineRunning)
+                {
+                    StartCoroutine(HandleClickedState());
+                }
             }
             else
             {
                 animator.SetBool("IsSit", false);
+                if (isClickedCoroutineRunning)
+                {
+                    StopCoroutine(HandleClickedState());
+                    animator.SetBool("IsClicked", false);
+                    isClickedCoroutineRunning = false;
+                }
             }
+
 
             if (distance >= 8f)
             {
@@ -53,6 +66,8 @@ public class AgentScript : MonoBehaviour
             {
                 animator.SetBool("IsRun", false);
             }
+
+
         }
         else
         {
@@ -100,6 +115,16 @@ public class AgentScript : MonoBehaviour
             canPressM = true; // Allow M to be pressed after N has been pressed
         }
     }
+    IEnumerator HandleClickedState()
+    {
+        isClickedCoroutineRunning = true;
+        animator.SetBool("IsClicked", true);
+        yield return new WaitForSeconds(1f);
+        animator.SetBool("IsClicked", false);
+        yield return new WaitForSeconds(10f);
+        isClickedCoroutineRunning = false;
+    }
+
 
     IEnumerator PlayDelayedSound()
     {
