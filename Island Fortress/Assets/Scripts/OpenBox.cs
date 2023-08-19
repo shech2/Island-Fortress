@@ -117,11 +117,11 @@ public class OpenBox : MonoBehaviour
         paddleInsideBox.SetActive(false);
         paddleInBoat.GetComponent<MeshRenderer>().enabled = true;
         Objective[] o = FindAnyObjectByType<ObjectPanel>().GetObjectives();
-        ObjectPanel op = FindAnyObjectByType<ObjectPanel>();
+        ObjectiveManager op = FindAnyObjectByType<ObjectiveManager>();
         if (o.Length > 0)
         {
             o[0].isCompleted = true;
-            op.ObjectiveCompleted(o[0]);
+            op.CompleteObjective(o[0]);
         }
         // Hide the prompt text
         if (promptText != null)

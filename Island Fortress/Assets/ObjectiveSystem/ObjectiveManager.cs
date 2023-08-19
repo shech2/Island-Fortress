@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -25,6 +24,7 @@ public class ObjectiveManager : MonoBehaviour
     public void CompleteObjective(Objective objective)
     {
         objectPanel.ObjectiveCompleted(objective);
+        animator.SetBool("Open", true);
         StopAllCoroutines();
         StartCoroutine(TypeSentence(objective.ObjectiveText + " Completed!"));
     }
