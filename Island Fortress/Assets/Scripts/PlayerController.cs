@@ -20,9 +20,18 @@ public class PlayerController : MonoBehaviour
     public float attackCooldown = 1f; // 1 second cooldown for the attack
     private float lastAttackTime = -1f; // When the last attack occurred
 
+    public AudioClip soundClip; // The audio clip you want to play
+    private AudioSource audioSource;
+    public float soundPlayDistance = 6f; // Distance within which the sound will play
+    public float soundCooldown = 5f; // Cooldown for the sound to be played again
+    private float lastSoundTime = -5f; // The time when the sound was last played
+
 
     IEnumerator Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
+
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
@@ -87,6 +96,11 @@ public class PlayerController : MonoBehaviour
     {
         agent.destination = player.transform.position;
         animator.SetBool("Run", true);
+        if (!audioSource.isPlaying)
+        {
+            audioSource.PlayOneShot(soundClip);
+        }
+
         if (agent.remainingDistance <= agent.stoppingDistance)
         {
             AttackEnemy();
@@ -100,7 +114,13 @@ public class PlayerController : MonoBehaviour
 
         if (Time.time >= lastAttackTime + attackCooldown)
         {
+            if (!audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(soundClip);
+            }
+
             animator.SetBool("Attack", true);
+
 
             // Check distance when attacking
             float distance = Vector3.Distance(transform.position, player.transform.position);
@@ -118,6 +138,11 @@ public class PlayerController : MonoBehaviour
     private void DecreasePlayerHealth(float amount)
     {
         playerHealth -= amount;
+        if (!audioSource.isPlaying)
+        {
+            audioSource.PlayOneShot(soundClip);
+        }
+
 
         if (playerHealth < 0)
             playerHealth = 0; // Ensuring health doesn't go below 0
@@ -144,6 +169,10 @@ public class PlayerController : MonoBehaviour
     {
         Time.timeScale = 0;  // Pause the game
     }
+
+
+
+
 }
 
 
