@@ -124,7 +124,6 @@ public class PlayerController : MonoBehaviour
 
             // Check distance when attacking
             float distance = Vector3.Distance(transform.position, player.transform.position);
-            Debug.Log("Distance from player: " + distance);
 
             if (distance <= 3f)
             {
@@ -142,7 +141,7 @@ public class PlayerController : MonoBehaviour
         {
             audioSource.PlayOneShot(soundClip);
         }
-    
+
 
         if (playerHealth < 0)
             playerHealth = 0; // Ensuring health doesn't go below 0
@@ -174,8 +173,6 @@ public class PlayerController : MonoBehaviour
 
 
 }
-
-
 
 
 //________________________________________________________________________________________The old code !! ________________________________________________________________________________________
