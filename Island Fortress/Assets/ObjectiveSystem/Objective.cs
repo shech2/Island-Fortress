@@ -8,4 +8,5 @@ public class Objective
     public string name;
     [TextArea(3, 10)]
     public string ObjectiveText;
+    public bool isCompleted;
 }

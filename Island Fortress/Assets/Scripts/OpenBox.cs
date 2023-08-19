@@ -18,8 +18,6 @@ public class OpenBox : MonoBehaviour
     private Animator animator;
     private bool boxOpened = false;
 
-
-
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -118,7 +116,13 @@ public class OpenBox : MonoBehaviour
         // Deactivate the paddle to "pick it up"
         paddleInsideBox.SetActive(false);
         paddleInBoat.GetComponent<MeshRenderer>().enabled = true;
-
+        Objective[] o = FindAnyObjectByType<ObjectPanel>().GetObjectives();
+        ObjectPanel op = FindAnyObjectByType<ObjectPanel>();
+        if (o.Length > 0)
+        {
+            o[0].isCompleted = true;
+            op.ObjectiveCompleted(o[0]);
+        }
         // Hide the prompt text
         if (promptText != null)
         {

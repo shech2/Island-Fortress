@@ -22,6 +22,12 @@ public class ObjectiveManager : MonoBehaviour
         StartCoroutine(TypeSentence(objective.ObjectiveText));
     }
 
+    public void CompleteObjective(Objective objective)
+    {
+        objectPanel.ObjectiveCompleted(objective);
+        StopAllCoroutines();
+        StartCoroutine(TypeSentence(objective.ObjectiveText + " Completed!"));
+    }
     IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
