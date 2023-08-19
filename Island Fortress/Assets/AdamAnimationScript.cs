@@ -8,14 +8,21 @@ public class AdamAnimationScript : MonoBehaviour
     AudioSource audioSource;
     public AudioClip walkingSound;
     public AudioClip runningSound;
+    public AudioClip EnviormentSound;
 
     public AudioSource walkingAudioSource;
     public AudioSource runningAudioSource;
+
+    public AudioSource EnviormentAudioSource;
     // Start is called before the first frame update
 
     void Awake()
     {
         anim = GetComponent<Animator>();
+        EnviormentAudioSource.clip = EnviormentSound;
+        EnviormentAudioSource.loop = true;
+        EnviormentAudioSource.volume = 0.3f;
+        EnviormentAudioSource.Play();
 
     }
     // Update is called once per frame
@@ -28,6 +35,7 @@ public class AdamAnimationScript : MonoBehaviour
             if (!walkingAudioSource.isPlaying)
             {
                 walkingAudioSource.clip = walkingSound;
+                walkingAudioSource.volume = 0.2f;
                 walkingAudioSource.Play();
             }
         }
@@ -45,6 +53,7 @@ public class AdamAnimationScript : MonoBehaviour
             if (!runningAudioSource.isPlaying)
             {
                 runningAudioSource.clip = runningSound;
+                runningAudioSource.volume = 0.5f;
                 runningAudioSource.loop = true;
                 runningAudioSource.Play();
             }
@@ -69,12 +78,14 @@ public class AdamAnimationScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S))
         {
             anim.SetFloat("speed", -1);
-            // you can add a backward walking sound here if needed
+            // Play the backward walking sound here if needed
+            walkingAudioSource.Play();
         }
         if (Input.GetKeyUp(KeyCode.S))
         {
             anim.SetFloat("speed", 0);
             // Stop the backward walking sound here if needed
+            walkingAudioSource.Stop();
         }
 
     }

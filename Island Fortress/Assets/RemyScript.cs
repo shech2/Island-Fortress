@@ -27,6 +27,7 @@ public class RemyScript : MonoBehaviour
         walkingSound = GetComponent<AudioSource>(); // Assign the AudioSource component to the new variable
                                                     // gameOver = new GameOver();
                                                     // gameOver.Panel = Panel;
+
     }
 
 

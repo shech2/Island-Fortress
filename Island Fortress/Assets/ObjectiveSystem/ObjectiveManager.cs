@@ -36,7 +36,7 @@ public class ObjectiveManager : MonoBehaviour
             dialogueText.text += letter;
             yield return null;
         }
-        yield return new WaitForSeconds(waitTime);
+        yield return new WaitForSeconds(waitTime * Time.deltaTime);
         animator.SetBool("Open", false);
     }
 }
