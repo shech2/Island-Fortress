@@ -8,6 +8,7 @@ TagManager:
   - WayPoints
   - Water
   - Paddle1
+  - Axe
   layers:
   - Default
   - TransparentFX
