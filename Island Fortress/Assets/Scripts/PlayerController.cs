@@ -142,7 +142,7 @@ public class PlayerController : MonoBehaviour
         {
             audioSource.PlayOneShot(soundClip);
         }
-
+    
 
         if (playerHealth < 0)
             playerHealth = 0; // Ensuring health doesn't go below 0
