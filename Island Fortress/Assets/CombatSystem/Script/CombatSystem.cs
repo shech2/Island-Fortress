@@ -6,35 +6,44 @@ using TMPro;
 public class CombatSystem : MonoBehaviour
 {
     public GameObject PlayerHealthBar;
-    [SerializeField]
-    private SceneManager SceneManager;
     private float PlayerHealth = 100f;
+    private Vector3 startingPosition;
 
-
-    // Start is called before the first frame update
+    void Start()
+    {
+        startingPosition = transform.position;
+        UpdateHealthBar();
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Water")
         {
             PlayerHealth -= 100;
-            PlayerHealthBar.GetComponent<TextMeshProUGUI>().text = PlayerHealth.ToString();
+            UpdateHealthBar();
         }
     }
 
-
-    // Update is called once per frame
     void Update()
     {
         if (PlayerHealth <= 0)
         {
             Death();
         }
-
     }
 
     private void Death()
     {
-        SceneManager.ResetScene();
+        transform.position = startingPosition;
+        PlayerHealth = 100f; // reset player's health
+        UpdateHealthBar();
+    }
+
+    private void UpdateHealthBar()
+    {
+        if (PlayerHealthBar != null)
+        {
+            PlayerHealthBar.GetComponent<TextMeshProUGUI>().text = PlayerHealth.ToString();
+        }
     }
 }
