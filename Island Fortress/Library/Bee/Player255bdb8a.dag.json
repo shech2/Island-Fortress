@@ -1494,7 +1494,7 @@
       "Annotation": "CopyFiles Build/Island Fortress_Data/Resources/unity default resources",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources/unity default resources"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources/unity default resources"
       ],
       "Outputs": [
         "Build/Island Fortress_Data/Resources/unity default resources"
@@ -1516,7 +1516,7 @@
       "Annotation": "CopyFiles Build/UnityCrashHandler64.exe",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe"
       ],
       "Outputs": [
         "Build/UnityCrashHandler64.exe"
@@ -1527,7 +1527,7 @@
       "Annotation": "CopyFiles Build/UnityPlayer.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll"
       ],
       "Outputs": [
         "Build/UnityPlayer.dll"
@@ -1538,7 +1538,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
@@ -1549,7 +1549,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
@@ -1560,7 +1560,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/browscap.ini"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/browscap.ini"
@@ -1571,7 +1571,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/config"
@@ -1582,7 +1582,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
@@ -1593,7 +1593,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/machine.config"
@@ -1604,7 +1604,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/settings.map"
@@ -1615,7 +1615,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/web.config"
@@ -1626,7 +1626,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
@@ -1637,7 +1637,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
@@ -1648,7 +1648,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/machine.config"
@@ -1659,7 +1659,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/settings.map"
@@ -1670,7 +1670,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/web.config"
@@ -1681,7 +1681,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
@@ -1692,7 +1692,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
@@ -1703,7 +1703,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/machine.config"
@@ -1714,7 +1714,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/settings.map"
@@ -1725,7 +1725,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/web.config"
@@ -1736,7 +1736,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
@@ -1747,7 +1747,7 @@
       "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+        "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
       "Outputs": [
         "Build/MonoBleedingEdge/etc/mono/mconfig/config.xml"
@@ -1911,115 +1911,115 @@
   ],
   "FileSignatures": [
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.Data.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.exe"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.exe"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/ClassRegistrationGenerator.exe"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/ClassRegistrationGenerator.exe"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
     },
     {
       "File": "Library/Bee/Player255bdb8a-inputdata.json"
@@ -2036,13 +2036,13 @@
       "File": "Build/UnityCommon.props"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono"
     },
     {
-      "File": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources"
+      "File": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources"
     },
     {
       "File": "Library/Bee/Player255bdb8a-inputdata.json"
@@ -2054,18 +2054,18 @@
       "Recurse": 1
     },
     {
-      "Path": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
     },
     {
-      "Path": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono",
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono",
       "Recurse": 1
     },
     {
-      "Path": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources",
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources",
       "Recurse": 1
     },
     {
-      "Path": "D:/Program Files (x86)/Unity/2021.3.25f1/Editor/Data/Tools/BuildPipeline"
+      "Path": "C:/Program Files/Unity/Hub/Editor/2021.3.25f1/Editor/Data/Tools/BuildPipeline"
     },
     {
       "Path": "Library/PlayerDataCache/Win64/Data",
