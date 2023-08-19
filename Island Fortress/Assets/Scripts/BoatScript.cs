@@ -34,6 +34,18 @@ public class BoatScript : MonoBehaviour
         }
     }
 
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Player") && Paddle.GetComponent<MeshRenderer>().enabled && Paddle1.GetComponent<MeshRenderer>().enabled)
+        {
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Scene1");
+                // FindObjectOfType<SceneManager>().NextScene(); --> After We will have the next scene
+            }
+        }
+    }
+
     private void OnCollisionExit(Collision collision)
     {
         if (collision.gameObject.CompareTag("Player"))
