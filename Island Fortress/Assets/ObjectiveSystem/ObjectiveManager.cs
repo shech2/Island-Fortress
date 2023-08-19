@@ -26,7 +26,7 @@ public class ObjectiveManager : MonoBehaviour
         objectPanel.ObjectiveCompleted(objective);
         animator.SetBool("Open", true);
         StopAllCoroutines();
-        StartCoroutine(TypeSentence(objective.ObjectiveText + " Completed!"));
+        StartCoroutine(TypeSentence("Objective Completed!"));
     }
     IEnumerator TypeSentence(string sentence)
     {
