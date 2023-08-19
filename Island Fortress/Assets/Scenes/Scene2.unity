@@ -5190,43 +5190,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.92
       objectReference: {fileID: 0}
     - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 0.94
       objectReference: {fileID: 0}
     - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.81793
+      value: 40.67
       objectReference: {fileID: 0}
     - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.389996
+      value: 6.53
       objectReference: {fileID: 0}
     - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 35.295166
+      value: 35.25
       objectReference: {fileID: 0}
     - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.19863236
+      value: 0.6928366
       objectReference: {fileID: 0}
     - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -9.313227e-10
+      value: -3.785669e-11
       objectReference: {fileID: 0}
     - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.9800741
+      value: -0.7210946
       objectReference: {fileID: 0}
     - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.000000001396984
+      value: 0.000000001678539
+      objectReference: {fileID: 0}
+    - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -92.29
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
@@ -5235,6 +5239,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
   m_PrefabInstance: {fileID: 851356419}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &851356421 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 166910, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
+  m_PrefabInstance: {fileID: 851356419}
+  m_PrefabAsset: {fileID: 0}
+--- !u!59 &851356422
+HingeJoint:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851356421}
+  m_ConnectedBody: {fileID: 0}
+  m_ConnectedArticulationBody: {fileID: 0}
+  m_Anchor: {x: 0, y: 1.5, z: 0}
+  m_Axis: {x: 1, y: 90, z: 0}
+  m_AutoConfigureConnectedAnchor: 1
+  m_ConnectedAnchor: {x: -7.630001, y: 7.94, z: 35.31}
+  m_UseSpring: 0
+  m_Spring:
+    spring: 0
+    damper: 0
+    targetPosition: 0
+  m_UseMotor: 1
+  m_Motor:
+    targetVelocity: 0
+    force: 0
+    freeSpin: 1
+  m_UseLimits: 0
+  m_Limits:
+    min: 0
+    max: 0
+    bounciness: 0
+    bounceMinVelocity: 0.2
+    contactDistance: 0
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_EnableCollision: 0
+  m_EnablePreprocessing: 1
+  m_MassScale: 1
+  m_ConnectedMassScale: 1
+--- !u!54 &851356423
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 851356421}
+  serializedVersion: 2
+  m_Mass: 0.5
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &886275764
 GameObject:
   m_ObjectHideFlags: 0
@@ -9467,7 +9528,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.9
+      value: 0.94
       objectReference: {fileID: 0}
     - target: {fileID: 474340, guid: 7c026980fc17fa642b7a22557ebb0007, type: 3}
       propertyPath: m_LocalScale.z
@@ -9530,7 +9591,7 @@ HingeJoint:
     spring: 0
     damper: 0
     targetPosition: 0
-  m_UseMotor: 0
+  m_UseMotor: 1
   m_Motor:
     targetVelocity: 0
     force: 0
@@ -9556,7 +9617,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272981229}
   serializedVersion: 2
-  m_Mass: 1
+  m_Mass: 0.5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
