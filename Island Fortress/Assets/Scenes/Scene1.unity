@@ -50565,6 +50565,34 @@ PrefabInstance:
       propertyPath: m_PixelPerfect
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7492964265490151292, guid: 954ac0f56baaace4f92f31f81aa0ed4e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492964265490151292, guid: 954ac0f56baaace4f92f31f81aa0ed4e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492964265490151292, guid: 954ac0f56baaace4f92f31f81aa0ed4e, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492964265490151292, guid: 954ac0f56baaace4f92f31f81aa0ed4e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492964265490151292, guid: 954ac0f56baaace4f92f31f81aa0ed4e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 818.48486
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492964265490151292, guid: 954ac0f56baaace4f92f31f81aa0ed4e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7492964265490151292, guid: 954ac0f56baaace4f92f31f81aa0ed4e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -168
+      objectReference: {fileID: 0}
     - target: {fileID: 7492964265490151294, guid: 954ac0f56baaace4f92f31f81aa0ed4e, type: 3}
       propertyPath: m_CullTransparentMesh
       value: 1
