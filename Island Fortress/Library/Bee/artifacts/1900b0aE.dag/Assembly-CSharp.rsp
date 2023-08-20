@@ -406,6 +406,7 @@
 "Assets/Scripts/DoorScript.cs"
 "Assets/Scripts/FollowPlayer.cs"
 "Assets/Scripts/LightTowerScript.cs"
+"Assets/Scripts/MenuScript.cs"
 "Assets/Scripts/OpenBox.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/SceneManager.cs"
