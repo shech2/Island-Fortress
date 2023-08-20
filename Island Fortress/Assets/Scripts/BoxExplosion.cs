@@ -155,7 +155,7 @@ public class BoxExplosion : MonoBehaviour
         if (player != null)
         {
             player.transform.position = playerStartingPosition;
-            PlayerHealth = 0f;
+            PlayerHealth = 100f;
             UpdateHealthBar();
         }
     }
@@ -172,10 +172,10 @@ public class BoxExplosion : MonoBehaviour
 
     IEnumerator ReturnPlayerToStartPosition()
     {
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1.0f);
         if (player != null)
         {
-            player.transform.position = playerStartingPosition;
+            Death();
         }
     }
 
