@@ -56,7 +56,7 @@ public class MenuScript : MonoBehaviour
     {
         PlaySound();
         audioSource.Stop(); // Stops the background music
-        Application.LoadLevel(0); // Note: Application.LoadLevel is obsolete, consider using SceneManager.LoadScene
+        Application.LoadLevel(1); // Note: Application.LoadLevel is obsolete, consider using SceneManager.LoadScene
     }
 
     public void ExitGame()

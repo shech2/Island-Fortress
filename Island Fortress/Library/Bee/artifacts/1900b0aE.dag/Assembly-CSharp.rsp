@@ -376,6 +376,7 @@
 "Assets/Dialogue/Dialogue.cs"
 "Assets/Dialogue/DialogueManager.cs"
 "Assets/Dialogue/DialogueTrigger.cs"
+"Assets/EndGameScript.cs"
 "Assets/Flooded_Grounds/Scripts/DisableRenderer.cs"
 "Assets/Flooded_Grounds/Scripts/FPSController/CharController_Motor.cs"
 "Assets/Flooded_Grounds/Scripts/FPSDisplay.cs"
