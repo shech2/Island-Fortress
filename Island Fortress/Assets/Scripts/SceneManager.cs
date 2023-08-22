@@ -5,6 +5,28 @@ using UnityEngine.SceneManagement;
 
 public class SceneManager : MonoBehaviour
 {
+
+    // Singletone SceneManager
+    public static SceneManager Instance { get; private set; }
+
+    // Awake is called before Start
+    private void Awake()
+    {
+        // Check if there is an instance of the SceneManager
+        if (Instance == null)
+        {
+            // If not, set it to this
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        // If there is an instance of the SceneManager
+        else
+        {
+            // Destroy this
+            Destroy(gameObject);
+        }
+    }
+
     // a Funtion That will Trigger the Next Scene
     public void NextScene()
     {

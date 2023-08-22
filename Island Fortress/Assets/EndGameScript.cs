@@ -1,8 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class EndGameScript : MonoBehaviour
 {
@@ -19,9 +18,9 @@ public class EndGameScript : MonoBehaviour
 
     IEnumerator EndGame()
     {
-        // Pause the game
-        Time.timeScale = 0;
-        yield return new WaitForSeconds(5);
-        Application.Quit();
+        yield return new WaitForSeconds(3);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Scene0");
+        // Return the Mouse to the center of the screen
+        Cursor.lockState = CursorLockMode.None;
     }
 }
