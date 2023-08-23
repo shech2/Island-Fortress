@@ -9,7 +9,7 @@ public class SceneManager : MonoBehaviour
     // Singletone SceneManager
     public static SceneManager Instance { get; private set; }
 
-    public float Health;
+    public float Health = 100f;
     // Awake is called before Start
     private void Awake()
     {
