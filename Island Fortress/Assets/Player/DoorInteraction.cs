@@ -7,6 +7,11 @@ public class DoorInteraction : Interactable
     [SerializeField]
     private GameObject Door;
 
+    [SerializeField]
+    private AudioClip openDoorSound;  // sound when the door opens
+    [SerializeField]
+    private AudioClip closeDoorSound; // sound when the door closes
+
     private AudioSource audioSource = null;
     private bool doorOpen;
 
@@ -22,25 +27,32 @@ public class DoorInteraction : Interactable
         }
     }
 
-
     protected override void Interact()
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
             doorOpen = !doorOpen;
+
+            // Check if AudioSource exists
             if (audioSource != null)
             {
+                // Determine which sound to play based on the door state
+                if (doorOpen)
+                {
+                    audioSource.clip = openDoorSound;
+                }
+                else
+                {
+                    audioSource.clip = closeDoorSound;
+                }
 
+                // Stop any currently playing sound and play the new sound
+                audioSource.Stop();
                 audioSource.Play();
-                OpenDoor();
             }
-            else
-            {
-                OpenDoor();
 
-            }
+            OpenDoor();
         }
-
     }
 
     private void OpenDoor()
