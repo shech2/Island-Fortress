@@ -21,6 +21,7 @@ public class AgentScript : MonoBehaviour
     public AudioSource audioSource1;
     public AudioSource audioSource2;
     private bool isClickedCoroutineRunning = false;
+    private Coroutine delayedSoundCoroutine = null;
 
     void Start()
     {
@@ -87,13 +88,19 @@ public class AgentScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.M) && canPressM)
         {
             float distance = Vector3.Distance(agent.transform.position, target.position);
+            if (delayedSoundCoroutine != null)
+            {
+                StopCoroutine(delayedSoundCoroutine);  // Stop the delayed sound coroutine
+                delayedSoundCoroutine = null;
+            }
+            audioSource1.Stop();
             audioSource2.Stop();
             audioSource1.PlayOneShot(sound);
-
             if (distance >= 5f)
             {
                 audioSource1.PlayOneShot(ComeBack);
             }
+
 
             shouldFollow = !shouldFollow;
             if (shouldFollow)
@@ -107,8 +114,13 @@ public class AgentScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.N) && shouldFollow)
         {
+            audioSource1.Stop();
             audioSource1.PlayOneShot(freeMonkey);
-            StartCoroutine(PlayDelayedSound());
+            if (delayedSoundCoroutine != null) // If it's already running, stop it
+            {
+                StopCoroutine(delayedSoundCoroutine);
+            }
+            delayedSoundCoroutine = StartCoroutine(PlayDelayedSound());
             shouldFollow = false;
             pointsIndex = 0;
             VisitPoints();
@@ -129,6 +141,7 @@ public class AgentScript : MonoBehaviour
     IEnumerator PlayDelayedSound()
     {
         yield return new WaitForSeconds(1f);
+
         audioSource2.PlayOneShot(MonkeySound);
     }
 
