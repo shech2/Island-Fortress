@@ -64492,7 +64492,7 @@ MonoBehaviour:
   playerHealthText: {fileID: 3018629831017340635}
   attackCooldown: 1
   soundClip: {fileID: 8300000, guid: 244c25be43551d641b22a1fcbe59de15, type: 3}
-  soundPlayDistance: 6
+  soundPlayDistance: 15
   soundCooldown: 5
 --- !u!54 &2447561300789332957
 Rigidbody:

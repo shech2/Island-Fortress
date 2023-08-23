@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
 
     public AudioClip soundClip; // The audio clip you want to play
     private AudioSource audioSource;
-    public float soundPlayDistance = 6f; // Distance within which the sound will play
+    public float soundPlayDistance = 15f; // Distance within which the sound will play
     public float soundCooldown = 5f; // Cooldown for the sound to be played again
     private float lastSoundTime = -5f; // The time when the sound was last played
 
@@ -47,6 +47,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        // Existing AI logic
         if (IsPlayerInSight())
         {
             ChaseEnemy();
@@ -54,6 +55,29 @@ public class PlayerController : MonoBehaviour
         else
         {
             VisitPoints();
+        }
+
+        // Sound based on distance logic
+        ManageSoundBasedOnDistance();
+    }
+
+    private void ManageSoundBasedOnDistance()
+    {
+        // Calculate the distance between the enemy and the player
+        float distanceToPlayer = Vector3.Distance(transform.position, player.transform.position);
+
+        // If the enemy is within the soundPlayDistance from the player and hasn't played a sound in a while, play the sound
+        if (distanceToPlayer <= soundPlayDistance && Time.time >= lastSoundTime + soundCooldown)
+        {
+            if (!audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(soundClip);
+                lastSoundTime = Time.time; // Update the time when the sound was last played
+            }
+        }
+        else if (distanceToPlayer > 15f) // If the distance is more than 15f, stop the audio
+        {
+            audioSource.Stop();
         }
     }
 
@@ -96,16 +120,20 @@ public class PlayerController : MonoBehaviour
     {
         agent.destination = player.transform.position;
         animator.SetBool("Run", true);
-        if (!audioSource.isPlaying)
-        {
-            audioSource.PlayOneShot(soundClip);
-        }
+
+        // Calculate the distance between the enemy and the player
+
+
+        // If the enemy is within the soundPlayDistance from the player and hasn't played a sound in a while, play the sound
+
 
         if (agent.remainingDistance <= agent.stoppingDistance)
         {
             AttackEnemy();
         }
     }
+
+
 
     private void AttackEnemy()
     {
@@ -131,6 +159,7 @@ public class PlayerController : MonoBehaviour
                 lastAttackTime = Time.time; // Update the last attack time
             }
         }
+
     }
 
 
@@ -167,6 +196,7 @@ public class PlayerController : MonoBehaviour
     private void PauseGame()
     {
         Time.timeScale = 0;  // Pause the game
+        audioSource.Stop();  // Stop the audio
     }
 
 
