@@ -41,7 +41,7 @@ public class BoatScript : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 // UnityEngine.SceneManagement.SceneManager.LoadScene("Scene1");  --> After We will have the next scene
-                FindObjectOfType<SceneManager>().NextScene();
+                SceneManager.Instance.NextScene();
             }
         }
     }

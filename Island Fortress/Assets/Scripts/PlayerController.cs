@@ -14,8 +14,6 @@ public class PlayerController : MonoBehaviour
     public float targetRange = 30f;
 
     private GameObject player;
-    private float playerHealth = 100f;  // Player's health
-    public TextMeshProUGUI playerHealthText;  // Reference to the TextMeshPro component to display health
 
     public float attackCooldown = 1f; // 1 second cooldown for the attack
     private float lastAttackTime = -1f; // When the last attack occurred
@@ -30,8 +28,6 @@ public class PlayerController : MonoBehaviour
     IEnumerator Start()
     {
         audioSource = GetComponent<AudioSource>();
-
-
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player");
@@ -165,15 +161,15 @@ public class PlayerController : MonoBehaviour
 
     private void DecreasePlayerHealth(float amount)
     {
-        playerHealth -= amount;
+        SceneManager.Instance.Health -= amount;
         if (!audioSource.isPlaying)
         {
             audioSource.PlayOneShot(soundClip);
         }
 
 
-        if (playerHealth < 0)
-            playerHealth = 0; // Ensuring health doesn't go below 0
+        if (SceneManager.Instance.Health < 0)
+            SceneManager.Instance.Health = 0; // Ensuring health doesn't go below 0
 
         UpdatePlayerHealthDisplay();
     }
@@ -181,13 +177,13 @@ public class PlayerController : MonoBehaviour
     // Method to update player's health on the UI
     private void UpdatePlayerHealthDisplay()
     {
-        if (playerHealthText != null)
+        GameObject playerHealthBar = GameObject.FindGameObjectWithTag("PlayerHealthBar");
+        if (playerHealthBar != null)
         {
-            playerHealthText.text = playerHealth.ToString();
+            playerHealthBar.GetComponent<TextMeshProUGUI>().text = SceneManager.Instance.Health.ToString();
         }
-
         // Check if player's health is 0 or below
-        if (playerHealth <= 0)
+        if (SceneManager.Instance.Health <= 0)
         {
             PauseGame();
         }

@@ -8463,7 +8463,6 @@ MonoBehaviour:
   - {fileID: 2057592014}
   WaitTime: 3
   targetRange: 15
-  playerHealthText: {fileID: 3018629831017340635}
   attackCooldown: 1
   soundClip: {fileID: 8300000, guid: 244c25be43551d641b22a1fcbe59de15, type: 3}
   soundPlayDistance: 6
@@ -13983,7 +13982,6 @@ MonoBehaviour:
   - {fileID: 1976077307}
   WaitTime: 3
   targetRange: 15
-  playerHealthText: {fileID: 3018629831017340635}
   attackCooldown: 1
   soundClip: {fileID: 8300000, guid: 244c25be43551d641b22a1fcbe59de15, type: 3}
   soundPlayDistance: 6
@@ -16465,6 +16463,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4404048751168649368, guid: d52b8f290ef20944da00dc5d01be8fe1, type: 3}
+      propertyPath: Health
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 4404048751168649369, guid: d52b8f290ef20944da00dc5d01be8fe1, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -64489,7 +64491,6 @@ MonoBehaviour:
   - {fileID: 901045456}
   WaitTime: 3
   targetRange: 15
-  playerHealthText: {fileID: 3018629831017340635}
   attackCooldown: 1
   soundClip: {fileID: 8300000, guid: 244c25be43551d641b22a1fcbe59de15, type: 3}
   soundPlayDistance: 15
@@ -64848,7 +64849,7 @@ GameObject:
   - component: {fileID: 3018629831017340635}
   m_Layer: 0
   m_Name: Health
-  m_TagString: Untagged
+  m_TagString: PlayerHealthBar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

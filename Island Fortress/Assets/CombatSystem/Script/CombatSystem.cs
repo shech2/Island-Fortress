@@ -6,7 +6,7 @@ using TMPro;
 public class CombatSystem : MonoBehaviour
 {
     public GameObject PlayerHealthBar;
-    private float PlayerHealth = 100f;
+    private float PlayerHealth = SceneManager.Instance.Health;
     private Vector3 startingPosition;
 
     void Start()
@@ -24,6 +24,11 @@ public class CombatSystem : MonoBehaviour
         }
     }
 
+    public float GetPlayerHealth()
+    {
+        return PlayerHealth;
+    }
+
     void Update()
     {
         if (PlayerHealth <= 0)
@@ -39,7 +44,7 @@ public class CombatSystem : MonoBehaviour
         UpdateHealthBar();
     }
 
-    private void UpdateHealthBar()
+    public void UpdateHealthBar()
     {
         if (PlayerHealthBar != null)
         {
