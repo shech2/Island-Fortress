@@ -39,7 +39,7 @@ public class AdamAnimationScript : MonoBehaviour
                 walkingAudioSource.Play();
             }
         }
-        if (Input.GetKeyUp(KeyCode.W) || Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKeyUp(KeyCode.W) && !Input.GetKey(KeyCode.LeftShift))
         {
             anim.SetFloat("speed", 0);
             walkingAudioSource.Stop();
@@ -66,10 +66,6 @@ public class AdamAnimationScript : MonoBehaviour
             {
                 anim.SetFloat("speed", 1);
                 walkingAudioSource.Play();
-            }
-            else
-            {
-                anim.SetFloat("speed", 0);
             }
         }
 

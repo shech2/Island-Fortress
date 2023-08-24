@@ -51,4 +51,9 @@ public class SceneManager : MonoBehaviour
         // Load the Next Scene
         UnityEngine.SceneManagement.SceneManager.LoadScene(sceneIndex);
     }
+
+    public void LoadScene(string sceneName)
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+    }
 }

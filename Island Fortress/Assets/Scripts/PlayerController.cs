@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using TMPro;
 using System.Collections;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     public float soundPlayDistance = 15f; // Distance within which the sound will play
     public float soundCooldown = 5f; // Cooldown for the sound to be played again
     private float lastSoundTime = -5f; // The time when the sound was last played
+    public GameObject panel;
 
 
     IEnumerator Start()
@@ -55,6 +57,7 @@ public class PlayerController : MonoBehaviour
 
         // Sound based on distance logic
         ManageSoundBasedOnDistance();
+        CheckIfPanelIsOpen();
     }
 
     private void ManageSoundBasedOnDistance()
@@ -193,6 +196,28 @@ public class PlayerController : MonoBehaviour
     {
         Time.timeScale = 0;  // Pause the game
         audioSource.Stop();  // Stop the audio
+        panel.gameObject.SetActive(true);  // Show the panel
+    }
+
+    private void CheckIfPanelIsOpen()
+    {
+        if (panel.gameObject.activeInHierarchy == true)
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.Instance.Health = 100f; // Reset the health
+                Time.timeScale = 1;  // Resume the game
+                panel.gameObject.SetActive(false);  // Hide the panel
+                SceneManager.Instance.ResetScene();
+            }
+            else if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                Time.timeScale = 1;  // Resume the game
+                panel.gameObject.SetActive(false);  // Hide the panel
+                Cursor.lockState = CursorLockMode.None;
+                SceneManager.Instance.LoadScene("Scene0");
+            }
+        }
     }
 
 
