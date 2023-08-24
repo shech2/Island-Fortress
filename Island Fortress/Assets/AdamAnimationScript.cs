@@ -16,7 +16,7 @@ public class AdamAnimationScript : MonoBehaviour
     public AudioSource EnviormentAudioSource;
     // Start is called before the first frame update
 
-    private int screenshotIndex = 4;
+    private int screenshotIndex = 5;
     void Awake()
     {
         anim = GetComponent<Animator>();
