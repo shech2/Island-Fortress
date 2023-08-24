@@ -8,6 +8,8 @@ public class BoxExplosion : MonoBehaviour
     public GameObject originalObject;
     public GameObject fracturedObject;
     public GameObject explosion;
+
+    public GameObject Gaz;
     public float explosionMinForce = 5;
     public float explosionMaxForce = 100;
     public float explosionRadius = 10;
@@ -28,6 +30,7 @@ public class BoxExplosion : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        Gaz.SetActive(true);
         player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
@@ -50,12 +53,12 @@ public class BoxExplosion : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
+                    Gaz.SetActive(false);
                     if (!gameObject.activeInHierarchy)
                     {
                         Debug.LogWarning("Trying to explode an inactive object: " + gameObject.name);
                         return;
                     }
-
                     promptText.enabled = false;
                     isExploding = true;
                     Explode();

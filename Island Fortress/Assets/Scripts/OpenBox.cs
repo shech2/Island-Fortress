@@ -8,6 +8,8 @@ public class OpenBox : MonoBehaviour
     public GameObject player;
     public GameObject paddleInsideBox; // Reference to the paddle inside the box
     public GameObject paddleInBoat; // Reference to the paddle outside the boat
+    public GameObject Gaz;
+
     public Vector3 jumpForce = new Vector3(0, 5, 0); // Adjust this to control the "jump out" force
     public Text promptText;
 
@@ -23,6 +25,7 @@ public class OpenBox : MonoBehaviour
         animator = GetComponent<Animator>();
         animator.enabled = false;
         audioSource = GetComponent<AudioSource>();
+        Gaz.SetActive(true);
 
         if (player == null)
         {
@@ -60,7 +63,7 @@ public class OpenBox : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
-
+                    Gaz.SetActive(false);
                     animator.enabled = true;
                     OpenBoxAndReleasePaddle();
                     boxOpened = true;
