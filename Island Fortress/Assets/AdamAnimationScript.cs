@@ -16,6 +16,7 @@ public class AdamAnimationScript : MonoBehaviour
     public AudioSource EnviormentAudioSource;
     // Start is called before the first frame update
 
+    private int screenshotIndex = 0;
     void Awake()
     {
         anim = GetComponent<Animator>();
@@ -86,6 +87,11 @@ public class AdamAnimationScript : MonoBehaviour
             anim.SetFloat("speed", 0);
             // Stop the backward walking sound here if needed
             walkingAudioSource.Stop();
+        }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            ScreenCapture.CaptureScreenshot("Screenshot" + screenshotIndex + ".png");
+            screenshotIndex++;
         }
 
     }
